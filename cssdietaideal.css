@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  text-align: center;
+  font-size: 22px;
+  font-family: Cursive;
+}
+
+.h1, h2{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-shadow: 2px 2px 5px rgb(155, 155, 192);
+}
+
+/* Titulo header */
+.headerf{
+  font-size: 25px;
+  text-shadow: 0.1em 0.1em 0.02em rgb(184, 181, 181);
+}
+
+/* Degrade */
+.magreza{
+  background-image: linear-gradient(rgb(238,232,170), rgb(255,255,224));
+  height: 1000px;
+}
+
+.normal{
+  background-image: linear-gradient(rgb(102, 205, 154), rgb(176, 250, 195));
+  height: 1000px;
+}
+
+.obesidade1{
+  background-image: linear-gradient(rgb(205,92,92), rgb(245, 157, 157));
+  height: 1000px;
+}
+
+.sobrepeso{
+  background-image: linear-gradient(rgba(255, 238, 139, 0.945), rgb(250,250,210));
+  height: 1000px;
+}
+
+.obesidadeg{
+  background-image: linear-gradient(rgb(169,169,169), rgb(192,192,192));
+  height: 1000px;
+}
+
+/* Style do header */
+.header {
+  background-color: #f1f1f1;
+  padding: 100px;
+  text-align: center;
+
+  background-image: url('https://media.istockphoto.com/photos/healthy-eating-background-food-photography-different-fruits-and-picture-id515673754?k=20&m=515673754&s=170667a&w=0&h=zelNhzDj5d4nwj_hxLESGtfkHZLPyIjTueJSgl4gnO4=');
+  background-size: 100% 100%;
+}
+
+/* Style da barra de navegação */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style dos links da barra de navegação */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-size: 20px;
+}
+
+/* Cor da hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Criação das três colunas */
+.column {
+  float: left;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Coluna eda esquerda/direita */
+.column.side {
+  width: 25%;
+}
+
+/* Coluna do meio */
+.column.middle {
+  width: 50%;
+}
+
+/* Limpar colunas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Layout responsivo das três colunas */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Autoria: Jeniffer R. Dos Santos; Laura Giovana Oliveira Dias</p> */
